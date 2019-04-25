@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cosmos
 
 class InformationView: UIView {
 
@@ -15,6 +16,7 @@ class InformationView: UIView {
     @IBOutlet weak var runTimeButton: UIButton!
     @IBOutlet weak var addressButton: UIButton!
     @IBOutlet weak var fullName: UILabel!
+    @IBOutlet weak var cosmosView: CosmosView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

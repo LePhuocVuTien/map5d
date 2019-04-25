@@ -8,6 +8,6 @@ target 'map5d' do
   # Pods for map5d
 
   pod 'map4dsdk'
-  pod 'Cosmos'
+  pod 'Cosmos', '~> 19.0'
 
 end
