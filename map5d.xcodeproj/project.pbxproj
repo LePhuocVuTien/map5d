@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488BE052272C2F100A6B8FC /* Extension+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE042272C2F100A6B8FC /* Extension+Label.swift */; };
 		04B2625B22714EE4005FAD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2625A22714EE4005FAD76 /* AppDelegate.swift */; };
 		04B2625D22714EE4005FAD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2625C22714EE4005FAD76 /* ViewController.swift */; };
 		04B2626022714EE4005FAD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2625E22714EE4005FAD76 /* Main.storyboard */; };
 		04B2626222714EE5005FAD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2626122714EE5005FAD76 /* Assets.xcassets */; };
 		04B2626522714EE5005FAD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2626322714EE5005FAD76 /* LaunchScreen.storyboard */; };
-		04B2626E2271519C005FAD76 /* Extension+ShadowNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2626D2271519C005FAD76 /* Extension+ShadowNavigationBar.swift */; };
+		04B2626E2271519C005FAD76 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2626D2271519C005FAD76 /* Extension+UIView.swift */; };
 		04B262732271580A005FAD76 /* InformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B262722271580A005FAD76 /* InformationView.xib */; };
 		04B2627522715836005FAD76 /* InformationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2627422715836005FAD76 /* InformationDelegate.swift */; };
 		04B26277227168F8005FAD76 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B26276227168F8005FAD76 /* InformationView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0488BE042272C2F100A6B8FC /* Extension+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Label.swift"; sourceTree = "<group>"; };
 		04B2625722714EE4005FAD76 /* map5d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map5d.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B2625A22714EE4005FAD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B2625C22714EE4005FAD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		04B2626122714EE5005FAD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B2626422714EE5005FAD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B2626622714EE5005FAD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04B2626D2271519C005FAD76 /* Extension+ShadowNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ShadowNavigationBar.swift"; sourceTree = "<group>"; };
+		04B2626D2271519C005FAD76 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		04B262722271580A005FAD76 /* InformationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationView.xib; sourceTree = "<group>"; };
 		04B2627422715836005FAD76 /* InformationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationDelegate.swift; sourceTree = "<group>"; };
 		04B26276227168F8005FAD76 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
@@ -88,9 +90,10 @@
 		04B2626C2271515B005FAD76 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				04B2626D2271519C005FAD76 /* Extension+ShadowNavigationBar.swift */,
+				04B2626D2271519C005FAD76 /* Extension+UIView.swift */,
 				04B26278227190FA005FAD76 /* Extension+ImageView.swift */,
 				04B2627A227196D9005FAD76 /* Extension+Button.swift */,
+				0488BE042272C2F100A6B8FC /* Extension+Label.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -245,11 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0488BE052272C2F100A6B8FC /* Extension+Label.swift in Sources */,
 				04B26277227168F8005FAD76 /* InformationView.swift in Sources */,
 				04B2625D22714EE4005FAD76 /* ViewController.swift in Sources */,
 				04B2627B227196D9005FAD76 /* Extension+Button.swift in Sources */,
 				04B2625B22714EE4005FAD76 /* AppDelegate.swift in Sources */,
-				04B2626E2271519C005FAD76 /* Extension+ShadowNavigationBar.swift in Sources */,
+				04B2626E2271519C005FAD76 /* Extension+UIView.swift in Sources */,
 				04B26279227190FA005FAD76 /* Extension+ImageView.swift in Sources */,
 				04B2627522715836005FAD76 /* InformationDelegate.swift in Sources */,
 			);

@@ -17,6 +17,7 @@ class InformationView: UIView {
     @IBOutlet weak var addressButton: UIButton!
     @IBOutlet weak var fullName: UILabel!
     @IBOutlet weak var cosmosView: CosmosView!
+    @IBOutlet weak var arriveLabel: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,19 +33,21 @@ class InformationView: UIView {
         Bundle.main.loadNibNamed("InformationView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
-        //contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+//
+//        arriveLabel.numberOfLines = 2
+//        let size = arriveLabel.sizeThatFits(CGSize(width: 100, height: arriveLabel.bounds.maxY))
+//        arriveLabel.frame = CGRect(origin: CGPoint(x: arriveLabel.frame.origin.x, y: arriveLabel.frame.origin.y), size: size)
+//        contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
     }
     
+    @IBAction func onTapMessage(_ sender: Any) {
+        print("YOU HAVE SEND A MESSAGE")
+    }
+    @IBAction func onTapPhone(_ sender: Any) {
+        print("SR BREAK PHONE")
+    }
     @IBAction func onTapCancel(_ sender: Any) {
-        print("Cancel")
-    }
-    
-    @IBAction func onTapCall(_ sender: Any) {
-        print("Call 113")
-    }
-    
-    @IBAction func onTapMassage(_ sender: Any) {
-        print("This is a message")
+        print("CANCEL")
     }
 }

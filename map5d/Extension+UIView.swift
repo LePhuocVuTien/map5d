@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-extension UINavigationBar {
-    @IBInspectable var shadowColor: UIColor? {
+extension UIView {
+    @IBInspectable var shadow: UIColor? {
         get {
             guard let color = layer.shadowColor
             else {
@@ -19,10 +19,12 @@ extension UINavigationBar {
             return UIColor(cgColor: color)
         }
         set{
-            self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
-            self.layer.shadowOpacity = 0.2
+            
+            layer.masksToBounds = false
+            self.layer.shadowOffset = CGSize(width: 0.0, height: 3.0)
+            self.layer.shadowOpacity = 1.0
             self.layer.shadowRadius = 0.5
-            layer.shadowColor = newValue?.cgColor
+            self.layer.shadowColor = newValue?.cgColor
         }
     }
     
