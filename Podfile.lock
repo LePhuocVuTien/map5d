@@ -1,0 +1,20 @@
+PODS:
+  - Cosmos (19.0.3)
+  - map4dsdk (1.1.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 19.0)
+  - map4dsdk
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cosmos
+    - map4dsdk
+
+SPEC CHECKSUMS:
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  map4dsdk: 42700039d225e747f8d4cc67acb8b702fbbd6bd3
+
+PODFILE CHECKSUM: b47bf92a90c97250aab0a0609abdf3aba7c70eb5
+
+COCOAPODS: 1.6.1

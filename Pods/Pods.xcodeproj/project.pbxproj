@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8577AE0E1712CA0596DA13F5A379C217 /* map4dsdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 928FF39643FD4D382BECAC4172AA1AD6 /* Build configuration list for PBXAggregateTarget "map4dsdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = map4dsdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B08C977C9ACA8605A0B3C4C093EF2A /* CosmosLayers.swift */; };
+		0B4CF5EBDD8A4A4993942EBF270728EF /* Pods-map5d-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9F4C8D97B16E1F6C0653DC54153F70 /* Pods-map5d-dummy.m */; };
+		0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A41633DA32CD9A768ACFDB18759BE459 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102FC0D80F1970ACDE5FC75EE2B74C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8D7E3430EB9C6650E9C73060AD620 /* StarFillMode.swift */; };
+		29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E91029245E382402D2ED12C3A0B539 /* RightToLeft.swift */; };
+		2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6042F7F03F38A0531D38E26C4C635F65 /* CosmosSize.swift */; };
+		3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7EE15BC8E689AB461D7928F2778B2 /* StarLayer.swift */; };
+		41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143151069A32260D5F7EAEDA59D881F8 /* CosmosAccessibility.swift */; };
+		43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8FBC0400E80E4CF3C3E05C70AA5497 /* CosmosText.swift */; };
+		5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B28BEA40EFBA4A285ED3E7DBDCA0AB /* CosmosRating.swift */; };
+		6760E01D726A59FB522378CEA5889DB7 /* Pods-map5d-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F2425D6EE3B62698226EA6E5C26FF0 /* Pods-map5d-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E7E44F2F93F2D230FB63C3C8743B /* CosmosLayerHelper.swift */; };
+		7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 376CD0CDC992E8952ED6775D6D4FB389 /* Cosmos-dummy.m */; };
+		A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7299DCC7EB968876FDF3EC353A3E346 /* CosmosDefaultSettings.swift */; };
+		BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72B22B89F88B2A09C454F5C25377C9A /* CosmosSettings.swift */; };
+		D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6231E0D6A604FEE0E2AC84AB1D05B00F /* CosmosTouch.swift */; };
+		D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6A2BBA1456C525CCD3AFCB9313357 /* CosmosTouchTarget.swift */; };
+		E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16469295184BF12492293384BF0838E2 /* CosmosView.swift */; };
+		F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C20695DFFE7E38F97346498C43794A /* CosmosLocalizedRating.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E86AFA46CED3183C2CBE42A288D78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8577AE0E1712CA0596DA13F5A379C217;
+			remoteInfo = map4dsdk;
+		};
+		ED7B94D1D0F77AFBDA8311AC691112D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E6A2BBA1456C525CCD3AFCB9313357 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		0A03772E993725258578F4EAAA09ECB0 /* map4dsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = map4dsdk.framework; path = sdk/map4dsdk.framework; sourceTree = "<group>"; };
+		0FD71C8015762D9291312FDCA6649EDD /* Pods-map5d.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-map5d.debug.xcconfig"; sourceTree = "<group>"; };
+		143151069A32260D5F7EAEDA59D881F8 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		16469295184BF12492293384BF0838E2 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		1DB138ADA43C55B36FBBBE0723F22F5E /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		2CAF71A83DE2D57DA77BDD471FC4BFF0 /* Pods-map5d-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-map5d-acknowledgements.plist"; sourceTree = "<group>"; };
+		376CD0CDC992E8952ED6775D6D4FB389 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		4258E7E44F2F93F2D230FB63C3C8743B /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		54F2425D6EE3B62698226EA6E5C26FF0 /* Pods-map5d-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-map5d-umbrella.h"; sourceTree = "<group>"; };
+		5BD7536060F9F27DBFEAA5CF56C69F62 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		6042F7F03F38A0531D38E26C4C635F65 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		6231E0D6A604FEE0E2AC84AB1D05B00F /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		6F5775AFC15EFA53E86388C3003C3987 /* map4dsdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = map4dsdk.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41633DA32CD9A768ACFDB18759BE459 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		A6C20695DFFE7E38F97346498C43794A /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		A882779C3CDC8A84E5F886EC38DCD045 /* Pods-map5d.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-map5d.release.xcconfig"; sourceTree = "<group>"; };
+		A95AC22EDE00878322255B8DBE5B261C /* Pods-map5d-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-map5d-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB9F4C8D97B16E1F6C0653DC54153F70 /* Pods-map5d-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-map5d-dummy.m"; sourceTree = "<group>"; };
+		AEB8D7E3430EB9C6650E9C73060AD620 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		B3B62226C6D6E5E4503054610736D458 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		B7E91029245E382402D2ED12C3A0B539 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		BA8FBC0400E80E4CF3C3E05C70AA5497 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		BAB7D5BC0904EB86D7F9BE5E63FFA338 /* Pods_map5d.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_map5d.framework; path = "Pods-map5d.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD92451BB3D0101D040C840B2E5F3C3 /* Pods-map5d-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-map5d-Info.plist"; sourceTree = "<group>"; };
+		C05C5400BEEA9CEA7D99BA0BECD44306 /* Pods-map5d.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-map5d.modulemap"; sourceTree = "<group>"; };
+		C165B4246333F835774DEFFB6A3FA4F5 /* Pods-map5d-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-map5d-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD7B51A21843FDC07A8FCCD71295F428 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED0BE656326F1E81618B82116D804F /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		E1B28BEA40EFBA4A285ED3E7DBDCA0AB /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		E7299DCC7EB968876FDF3EC353A3E346 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		E72B22B89F88B2A09C454F5C25377C9A /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		E9B08C977C9ACA8605A0B3C4C093EF2A /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		F9B7EE15BC8E689AB461D7928F2778B2 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464F2E4924D34624B2A379F2A7BDFE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102FC0D80F1970ACDE5FC75EE2B74C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E27E4FF6595BD818E8BBB72E9AED50C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052E1C308986DDA198F72DA29DAC0DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B51A21843FDC07A8FCCD71295F428 /* Cosmos.framework */,
+				BAB7D5BC0904EB86D7F9BE5E63FFA338 /* Pods_map5d.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0787C7A8A5A2CEFE11903BA9FDFA05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B62226C6D6E5E4503054610736D458 /* Cosmos.modulemap */,
+				DCED0BE656326F1E81618B82116D804F /* Cosmos.xcconfig */,
+				376CD0CDC992E8952ED6775D6D4FB389 /* Cosmos-dummy.m */,
+				1DB138ADA43C55B36FBBBE0723F22F5E /* Cosmos-Info.plist */,
+				5BD7536060F9F27DBFEAA5CF56C69F62 /* Cosmos-prefix.pch */,
+				A41633DA32CD9A768ACFDB18759BE459 /* Cosmos-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		1B51F4F4E2D5C58DBCBB46316D7CCC1D /* map4dsdk */ = {
+			isa = PBXGroup;
+			children = (
+				F31BB118A5391F7221B36666FB279A9E /* Frameworks */,
+				FD22D7E52D2B6718B76D5949A6840663 /* Support Files */,
+			);
+			name = map4dsdk;
+			path = map4dsdk;
+			sourceTree = "<group>";
+		};
+		27056755069388B27461C2FD8CFC0647 /* Pods-map5d */ = {
+			isa = PBXGroup;
+			children = (
+				C05C5400BEEA9CEA7D99BA0BECD44306 /* Pods-map5d.modulemap */,
+				A95AC22EDE00878322255B8DBE5B261C /* Pods-map5d-acknowledgements.markdown */,
+				2CAF71A83DE2D57DA77BDD471FC4BFF0 /* Pods-map5d-acknowledgements.plist */,
+				AB9F4C8D97B16E1F6C0653DC54153F70 /* Pods-map5d-dummy.m */,
+				C165B4246333F835774DEFFB6A3FA4F5 /* Pods-map5d-frameworks.sh */,
+				BAD92451BB3D0101D040C840B2E5F3C3 /* Pods-map5d-Info.plist */,
+				54F2425D6EE3B62698226EA6E5C26FF0 /* Pods-map5d-umbrella.h */,
+				0FD71C8015762D9291312FDCA6649EDD /* Pods-map5d.debug.xcconfig */,
+				A882779C3CDC8A84E5F886EC38DCD045 /* Pods-map5d.release.xcconfig */,
+			);
+			name = "Pods-map5d";
+			path = "Target Support Files/Pods-map5d";
+			sourceTree = "<group>";
+		};
+		63A6A99F61894E0E62A4EC2F1CD6EC28 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				143151069A32260D5F7EAEDA59D881F8 /* CosmosAccessibility.swift */,
+				E7299DCC7EB968876FDF3EC353A3E346 /* CosmosDefaultSettings.swift */,
+				4258E7E44F2F93F2D230FB63C3C8743B /* CosmosLayerHelper.swift */,
+				E9B08C977C9ACA8605A0B3C4C093EF2A /* CosmosLayers.swift */,
+				A6C20695DFFE7E38F97346498C43794A /* CosmosLocalizedRating.swift */,
+				E1B28BEA40EFBA4A285ED3E7DBDCA0AB /* CosmosRating.swift */,
+				E72B22B89F88B2A09C454F5C25377C9A /* CosmosSettings.swift */,
+				6042F7F03F38A0531D38E26C4C635F65 /* CosmosSize.swift */,
+				BA8FBC0400E80E4CF3C3E05C70AA5497 /* CosmosText.swift */,
+				6231E0D6A604FEE0E2AC84AB1D05B00F /* CosmosTouch.swift */,
+				04E6A2BBA1456C525CCD3AFCB9313357 /* CosmosTouchTarget.swift */,
+				16469295184BF12492293384BF0838E2 /* CosmosView.swift */,
+				B7E91029245E382402D2ED12C3A0B539 /* RightToLeft.swift */,
+				AEB8D7E3430EB9C6650E9C73060AD620 /* StarFillMode.swift */,
+				F9B7EE15BC8E689AB461D7928F2778B2 /* StarLayer.swift */,
+				1B0787C7A8A5A2CEFE11903BA9FDFA05 /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BCA58F96B6A74486EA8391423657D84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27056755069388B27461C2FD8CFC0647 /* Pods-map5d */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E8AC22B9374CA84FD0D574002614ECCB /* Pods */,
+				052E1C308986DDA198F72DA29DAC0DEF /* Products */,
+				9BCA58F96B6A74486EA8391423657D84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AC22B9374CA84FD0D574002614ECCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63A6A99F61894E0E62A4EC2F1CD6EC28 /* Cosmos */,
+				1B51F4F4E2D5C58DBCBB46316D7CCC1D /* map4dsdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F31BB118A5391F7221B36666FB279A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A03772E993725258578F4EAAA09ECB0 /* map4dsdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD22D7E52D2B6718B76D5949A6840663 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5775AFC15EFA53E86388C3003C3987 /* map4dsdk.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/map4dsdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B95E6B3C9270BEEB64825D064753E8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CDCD1DB897AD493C6867F6F27067C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6760E01D726A59FB522378CEA5889DB7 /* Pods-map5d-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BF068C503DDBBF9EF87917310094F93 /* Pods-map5d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E5B79A8AD7C0D79A0DB0521315B55 /* Build configuration list for PBXNativeTarget "Pods-map5d" */;
+			buildPhases = (
+				B3CDCD1DB897AD493C6867F6F27067C6 /* Headers */,
+				75A6C9B5B0C3C1DA1E6584F77135F875 /* Sources */,
+				464F2E4924D34624B2A379F2A7BDFE22 /* Frameworks */,
+				824698FC8759AF6F90922B9B0346E562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48CAAC81F77275CF1F6827DEE235512 /* PBXTargetDependency */,
+				C846B22FAF957438F14D5DB4C1CEE28C /* PBXTargetDependency */,
+			);
+			name = "Pods-map5d";
+			productName = "Pods-map5d";
+			productReference = BAB7D5BC0904EB86D7F9BE5E63FFA338 /* Pods_map5d.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2335538F1E562E6E1544476F6CC4848 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				3B95E6B3C9270BEEB64825D064753E8F /* Headers */,
+				F5913B357AD32274D1D5FA2E6ED42348 /* Sources */,
+				5E27E4FF6595BD818E8BBB72E9AED50C /* Frameworks */,
+				D6F0EA1E32A54B3722C5A21F8B3EF3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = CD7B51A21843FDC07A8FCCD71295F428 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 052E1C308986DDA198F72DA29DAC0DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */,
+				8577AE0E1712CA0596DA13F5A379C217 /* map4dsdk */,
+				0BF068C503DDBBF9EF87917310094F93 /* Pods-map5d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824698FC8759AF6F90922B9B0346E562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0EA1E32A54B3722C5A21F8B3EF3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A6C9B5B0C3C1DA1E6584F77135F875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4CF5EBDD8A4A4993942EBF270728EF /* Pods-map5d-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5913B357AD32274D1D5FA2E6ED42348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */,
+				41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */,
+				A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */,
+				699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */,
+				019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */,
+				F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */,
+				5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */,
+				BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */,
+				2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */,
+				43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */,
+				D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */,
+				D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */,
+				E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */,
+				29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */,
+				176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */,
+				3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C846B22FAF957438F14D5DB4C1CEE28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = map4dsdk;
+			target = 8577AE0E1712CA0596DA13F5A379C217 /* map4dsdk */;
+			targetProxy = 10E86AFA46CED3183C2CBE42A288D78B /* PBXContainerItemProxy */;
+		};
+		F48CAAC81F77275CF1F6827DEE235512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
+			targetProxy = ED7B94D1D0F77AFBDA8311AC691112D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47E14362D8F7C2A2DD759744428DFBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5775AFC15EFA53E86388C3003C3987 /* map4dsdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		592A316E1D29355865B7B16DA6D37529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD71C8015762D9291312FDCA6649EDD /* Pods-map5d.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-map5d/Pods-map5d-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-map5d/Pods-map5d.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		97227E5C3BA9468AB1CDBB03B5276E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A882779C3CDC8A84E5F886EC38DCD045 /* Pods-map5d.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-map5d/Pods-map5d-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-map5d/Pods-map5d.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D71C9B07332DF324394475FD72159CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCED0BE656326F1E81618B82116D804F /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F354D8961797120A57325E1105F38AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5775AFC15EFA53E86388C3003C3987 /* map4dsdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E9BBEB82AD9E843CF693697473E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCED0BE656326F1E81618B82116D804F /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928FF39643FD4D382BECAC4172AA1AD6 /* Build configuration list for PBXAggregateTarget "map4dsdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E14362D8F7C2A2DD759744428DFBAB /* Debug */,
+				F354D8961797120A57325E1105F38AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E5B79A8AD7C0D79A0DB0521315B55 /* Build configuration list for PBXNativeTarget "Pods-map5d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A316E1D29355865B7B16DA6D37529 /* Debug */,
+				97227E5C3BA9468AB1CDBB03B5276E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2335538F1E562E6E1544476F6CC4848 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71C9B07332DF324394475FD72159CCE /* Debug */,
+				F7E9BBEB82AD9E843CF693697473E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
