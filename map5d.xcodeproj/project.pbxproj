@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426E38D227AE90F00343A8B /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426E38C227AE90F00343A8B /* ButtonViewController.swift */; };
 		0488BE052272C2F100A6B8FC /* Extension+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488BE042272C2F100A6B8FC /* Extension+Label.swift */; };
 		04B2625B22714EE4005FAD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2625A22714EE4005FAD76 /* AppDelegate.swift */; };
 		04B2625D22714EE4005FAD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2625C22714EE4005FAD76 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0426E38C227AE90F00343A8B /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		0488BE042272C2F100A6B8FC /* Extension+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Label.swift"; sourceTree = "<group>"; };
 		04B2625722714EE4005FAD76 /* map5d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map5d.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B2625A22714EE4005FAD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				04B2626122714EE5005FAD76 /* Assets.xcassets */,
 				04B2626322714EE5005FAD76 /* LaunchScreen.storyboard */,
 				04B2626622714EE5005FAD76 /* Info.plist */,
+				0426E38C227AE90F00343A8B /* ButtonViewController.swift */,
 			);
 			path = map5d;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0488BE052272C2F100A6B8FC /* Extension+Label.swift in Sources */,
+				0426E38D227AE90F00343A8B /* ButtonViewController.swift in Sources */,
 				04B26277227168F8005FAD76 /* InformationView.swift in Sources */,
 				04B2625D22714EE4005FAD76 /* ViewController.swift in Sources */,
 				04B2627B227196D9005FAD76 /* Extension+Button.swift in Sources */,

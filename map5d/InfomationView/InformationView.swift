@@ -19,6 +19,8 @@ class InformationView: UIView {
     @IBOutlet weak var cosmosView: CosmosView!
     @IBOutlet weak var arriveLabel: UILabel!
     
+    @IBOutlet weak var runTimeView: UIView!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -33,12 +35,6 @@ class InformationView: UIView {
         Bundle.main.loadNibNamed("InformationView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
-//
-//        arriveLabel.numberOfLines = 2
-//        let size = arriveLabel.sizeThatFits(CGSize(width: 100, height: arriveLabel.bounds.maxY))
-//        arriveLabel.frame = CGRect(origin: CGPoint(x: arriveLabel.frame.origin.x, y: arriveLabel.frame.origin.y), size: size)
-//        contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-        
     }
     
     @IBAction func onTapMessage(_ sender: Any) {
