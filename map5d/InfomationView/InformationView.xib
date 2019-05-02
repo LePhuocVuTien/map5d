@@ -15,7 +15,6 @@
                 <outlet property="arriveLabel" destination="7Tn-GS-e9n" id="Wb3-Bk-t2F"/>
                 <outlet property="avataImageView" destination="5Te-1J-Wyl" id="l76-vy-1oh"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="os3-cz-qkL"/>
-                <outlet property="cosmosView" destination="PsE-5h-xPm" id="4SY-eF-KC2"/>
                 <outlet property="fullName" destination="mHB-zY-B2h" id="Cmi-Pi-6on"/>
                 <outlet property="runTimeView" destination="MLT-f9-v06" id="ndz-xD-arL"/>
             </connections>
@@ -116,37 +115,8 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </imageView>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PsE-5h-xPm" customClass="CosmosView" customModule="Cosmos">
-                            <rect key="frame" x="53" y="7" width="70" height="9"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="70" id="RSF-bc-723"/>
-                            </constraints>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
-                                    <real key="value" value="2"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
-                                    <integer key="value" value="5"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="number" keyPath="starSize">
-                                    <real key="value" value="9"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
-                                    <color key="value" red="1" green="0.79074197889999998" blue="0.13024529200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="number" keyPath="minTouchRating">
-                                    <real key="value" value="0.0"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="image" keyPath="filledImage" value="estrella"/>
-                                <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="estrellaempty"/>
-                                <userDefinedRuntimeAttribute type="number" keyPath="starMargin">
-                                    <real key="value" value="3"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
-                        </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="코쿠다스 ,코쿠다스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHB-zY-B2h">
-                            <rect key="frame" x="53" y="22" width="75" height="18"/>
+                            <rect key="frame" x="51" y="22" width="75" height="18"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="75" id="xw4-Fi-t76"/>
                             </constraints>
@@ -164,14 +134,62 @@
                     <constraints>
                         <constraint firstItem="5Te-1J-Wyl" firstAttribute="leading" secondItem="xFl-Fj-v17" secondAttribute="leading" id="094-gz-LOe"/>
                         <constraint firstItem="5Te-1J-Wyl" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="top" id="9la-Ae-ed3"/>
-                        <constraint firstItem="PsE-5h-xPm" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="7" id="C1b-X7-4BN"/>
+                        <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="5" id="ILa-fT-f4q"/>
                         <constraint firstAttribute="height" constant="48" id="PF2-4t-IKA"/>
                         <constraint firstAttribute="width" constant="140" id="Ycf-Hi-TbX"/>
-                        <constraint firstItem="mHB-zY-B2h" firstAttribute="top" secondItem="PsE-5h-xPm" secondAttribute="bottom" constant="6" id="gvg-9F-3Rw"/>
-                        <constraint firstItem="PsE-5h-xPm" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="top" constant="7" id="miG-op-4Xs"/>
-                        <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="7" id="yp0-1n-E30"/>
+                        <constraint firstItem="mHB-zY-B2h" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="top" constant="22" id="cxY-gx-0Tn"/>
+                        <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="5" id="pKM-0I-ec7"/>
                     </constraints>
                 </view>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eYU-ln-cQX">
+                    <rect key="frame" x="71" y="90" width="70" height="14"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKu-1A-o3G">
+                            <rect key="frame" x="0.0" y="0.0" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="14" id="Toa-Wc-i42"/>
+                                <constraint firstAttribute="height" constant="14" id="Ypw-cg-Ihy"/>
+                            </constraints>
+                            <state key="normal" image="estrellaempty"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JO-sM-Xaz">
+                            <rect key="frame" x="14" y="0.0" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="14" id="N3H-Re-mG7"/>
+                                <constraint firstAttribute="height" constant="14" id="XML-ve-X2L"/>
+                            </constraints>
+                            <state key="normal" image="estrellaempty"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPq-hY-UcA">
+                            <rect key="frame" x="28" y="0.0" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="brl-tY-3Fg"/>
+                                <constraint firstAttribute="width" constant="14" id="ig9-Cd-lp1"/>
+                            </constraints>
+                            <state key="normal" image="estrellaempty"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZL-Ic-9HA">
+                            <rect key="frame" x="42" y="0.0" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="d5q-sL-uRk"/>
+                                <constraint firstAttribute="width" constant="14" id="gPu-5k-OEV"/>
+                            </constraints>
+                            <state key="normal" image="estrellaempty"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xm3-Du-7k7">
+                            <rect key="frame" x="56" y="0.0" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="14" id="413-el-6Hn"/>
+                                <constraint firstAttribute="height" constant="14" id="SBf-Ke-GUc"/>
+                            </constraints>
+                            <state key="normal" image="estrellaempty"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="7dn-fG-k1j"/>
+                        <constraint firstAttribute="height" constant="14" id="oft-yp-xP6"/>
+                    </constraints>
+                </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-MP-NrZ">
                     <rect key="frame" x="248" y="98" width="120" height="20"/>
                     <subviews>
@@ -264,8 +282,10 @@
                 <constraint firstItem="xFl-Fj-v17" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="4" id="eJy-T9-Dnk"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="foM-HK-vOC"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
+                <constraint firstItem="eYU-ln-cQX" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="10" id="heY-1d-5dZ"/>
                 <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
                 <constraint firstItem="jQ9-MP-NrZ" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="18" id="i2i-Vk-s5S"/>
+                <constraint firstItem="eYU-ln-cQX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="71" id="uGg-ro-i0U"/>
                 <constraint firstItem="8f6-AH-Wxb" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="bottom" constant="10" id="zmJ-4G-3H2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -279,7 +299,6 @@
         <image name="03" width="64" height="64"/>
         <image name="04" width="64" height="64"/>
         <image name="05" width="64" height="64"/>
-        <image name="estrella" width="64" height="64"/>
         <image name="estrellaempty" width="64" height="64"/>
         <image name="gailadaychudau" width="480" height="360"/>
     </resources>
