@@ -65,11 +65,11 @@
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3km, 강남구신시555-111" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-GS-e9n">
-                            <rect key="frame" x="28" y="2.9999999999999991" width="200" height="15.666666666666664"/>
+                            <rect key="frame" x="28" y="3" width="200" height="18"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="jIr-gg-wTR"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                             <userDefinedRuntimeAttributes>
@@ -211,11 +211,11 @@
                     </constraints>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
-                    <rect key="frame" x="107" y="144" width="174" height="28"/>
+                    <rect key="frame" x="109" y="142" width="170" height="27"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="174" id="DDu-8V-6hf"/>
+                        <constraint firstAttribute="width" constant="170" id="DDu-8V-6hf"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <state key="normal" title="오늘온 조용히 가고 싶어요">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
@@ -252,7 +252,7 @@
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
                 <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
                 <constraint firstItem="jQ9-MP-NrZ" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="18" id="i2i-Vk-s5S"/>
-                <constraint firstItem="8f6-AH-Wxb" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="bottom" constant="12" id="zmJ-4G-3H2"/>
+                <constraint firstItem="8f6-AH-Wxb" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="bottom" constant="10" id="zmJ-4G-3H2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
