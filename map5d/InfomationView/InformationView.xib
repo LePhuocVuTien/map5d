@@ -35,40 +35,50 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>
-                <view alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gKW-OK-h8p">
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKW-OK-h8p">
                     <rect key="frame" x="0.0" y="0.0" width="388" height="35"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="05" translatesAutoresizingMaskIntoConstraints="NO" id="MrR-9c-UWI">
-                            <rect key="frame" x="134" y="11" width="14" height="14"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내 비게이션" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db8-Nc-v38">
-                            <rect key="frame" x="153" y="2" width="96" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 비게이션" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db8-Nc-v38">
+                            <rect key="frame" x="159.66666666666666" y="8.6666666666666643" width="69" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="69" id="9Qy-Qa-GBt"/>
+                            </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05" translatesAutoresizingMaskIntoConstraints="NO" id="MrR-9c-UWI">
+                            <rect key="frame" x="145.66666666666666" y="10.666666666666664" width="14" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="Gps-Xe-3zf"/>
+                                <constraint firstAttribute="width" constant="14" id="rvL-R9-RSh"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ANk-ke-jqY"/>
+                        <constraint firstItem="db8-Nc-v38" firstAttribute="centerY" secondItem="gKW-OK-h8p" secondAttribute="centerY" id="H7n-FN-Zjw"/>
+                        <constraint firstItem="db8-Nc-v38" firstAttribute="leading" secondItem="MrR-9c-UWI" secondAttribute="trailing" id="WpM-AN-srV"/>
+                        <constraint firstItem="db8-Nc-v38" firstAttribute="centerX" secondItem="gKW-OK-h8p" secondAttribute="centerX" id="pAT-bN-iox"/>
+                        <constraint firstItem="MrR-9c-UWI" firstAttribute="centerY" secondItem="gKW-OK-h8p" secondAttribute="centerY" id="uS7-dU-Wms"/>
+                    </constraints>
                 </view>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aZ4-Ki-qfF">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZ4-Ki-qfF">
                     <rect key="frame" x="18" y="43" width="346" height="37"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="04" translatesAutoresizingMaskIntoConstraints="NO" id="fNo-ve-spg">
                             <rect key="frame" x="8" y="1" width="24" height="24"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view alpha="0.25" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clU-rU-kWc">
                             <rect key="frame" x="0.0" y="34" width="350" height="1"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3km, 강남구신시555-111" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-GS-e9n">
                             <rect key="frame" x="33" y="5" width="300" height="15"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -83,6 +93,9 @@
                         </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="E63-QD-anD"/>
+                    </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
                     <rect key="frame" x="107" y="140" width="174" height="24"/>
@@ -193,6 +206,14 @@
                 </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aZ4-Ki-qfF" secondAttribute="trailing" constant="24" id="1yg-fe-6Dx"/>
+                <constraint firstItem="aZ4-Ki-qfF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Du1-rd-4BS"/>
+                <constraint firstItem="aZ4-Ki-qfF" firstAttribute="top" secondItem="gKW-OK-h8p" secondAttribute="bottom" constant="8" id="Jlg-XT-7ol"/>
+                <constraint firstItem="gKW-OK-h8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="foM-HK-vOC"/>
+                <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
+                <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="-100.00000000000001" y="-21.428571428571427"/>
