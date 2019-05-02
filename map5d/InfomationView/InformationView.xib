@@ -195,9 +195,8 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </button>
-                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-MP-NrZ">
-                    <rect key="frame" x="252" y="98" width="120" height="20"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-MP-NrZ">
+                    <rect key="frame" x="248" y="98" width="120" height="20"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-Cl-RGm">
                             <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -233,6 +232,9 @@
                             </connections>
                         </button>
                     </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="OoH-N5-9mL"/>
+                    </constraints>
                 </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -240,11 +242,13 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aZ4-Ki-qfF" secondAttribute="trailing" constant="24" id="1yg-fe-6Dx"/>
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Du1-rd-4BS"/>
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="top" secondItem="gKW-OK-h8p" secondAttribute="bottom" constant="8" id="Jlg-XT-7ol"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jQ9-MP-NrZ" secondAttribute="trailing" constant="20" id="PYP-FL-u2U"/>
                 <constraint firstItem="xFl-Fj-v17" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="deR-Es-QCo"/>
                 <constraint firstItem="xFl-Fj-v17" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="4" id="eJy-T9-Dnk"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="foM-HK-vOC"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
                 <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
+                <constraint firstItem="jQ9-MP-NrZ" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="18" id="i2i-Vk-s5S"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
