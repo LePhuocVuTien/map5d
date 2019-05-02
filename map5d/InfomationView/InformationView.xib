@@ -25,16 +25,6 @@
             <rect key="frame" x="0.0" y="0.0" width="388" height="230"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whY-13-gCC">
-                    <rect key="frame" x="0.0" y="180" width="388" height="50"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
-                    <state key="normal" title="운 행시 작">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
                 <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKW-OK-h8p">
                     <rect key="frame" x="0.0" y="0.0" width="388" height="35"/>
                     <subviews>
@@ -179,22 +169,6 @@
                         <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="7" id="yp0-1n-E30"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
-                    <rect key="frame" x="107" y="140" width="174" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <state key="normal" title="오늘온 조용히 가고 싶어요">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusd">
-                            <real key="value" value="15"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                            <color key="value" red="1" green="0.79074197887771547" blue="0.13024529204343549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </button>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-MP-NrZ">
                     <rect key="frame" x="248" y="98" width="120" height="20"/>
                     <subviews>
@@ -236,6 +210,34 @@
                         <constraint firstAttribute="width" constant="120" id="OoH-N5-9mL"/>
                     </constraints>
                 </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
+                    <rect key="frame" x="107" y="144" width="174" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="174" id="DDu-8V-6hf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="오늘온 조용히 가고 싶어요">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusd">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="0.79074197887771547" blue="0.13024529204343549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whY-13-gCC">
+                    <rect key="frame" x="0.0" y="180" width="388" height="50"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                    <state key="normal" title="운 행시 작">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -243,12 +245,14 @@
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Du1-rd-4BS"/>
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="top" secondItem="gKW-OK-h8p" secondAttribute="bottom" constant="8" id="Jlg-XT-7ol"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jQ9-MP-NrZ" secondAttribute="trailing" constant="20" id="PYP-FL-u2U"/>
+                <constraint firstItem="8f6-AH-Wxb" firstAttribute="centerX" secondItem="gKW-OK-h8p" secondAttribute="centerX" id="VT2-RV-7fm"/>
                 <constraint firstItem="xFl-Fj-v17" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="deR-Es-QCo"/>
                 <constraint firstItem="xFl-Fj-v17" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="4" id="eJy-T9-Dnk"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="foM-HK-vOC"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
                 <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
                 <constraint firstItem="jQ9-MP-NrZ" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="18" id="i2i-Vk-s5S"/>
+                <constraint firstItem="8f6-AH-Wxb" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="bottom" constant="12" id="zmJ-4G-3H2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
