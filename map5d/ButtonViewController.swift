@@ -37,8 +37,9 @@ class ButtonViewController: UIView {
         
         // Specify the fill color and apply it to the path.
         
-        UIColor(displayP3Red: 0.20, green: 0.40, blue: 0.8, alpha: 1.0).setFill()
+        UIColor(displayP3Red: 0.245141, green: 0.528709, blue: 0.996657, alpha: 1.0).setFill()
         path.fill()
+        
         
         UIColor.purple.setStroke()
     }
