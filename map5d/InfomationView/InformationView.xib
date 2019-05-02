@@ -92,7 +92,7 @@
                             </userDefinedRuntimeAttributes>
                         </label>
                         <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clU-rU-kWc">
-                            <rect key="frame" x="0.0" y="34" width="350" height="1"/>
+                            <rect key="frame" x="0.0" y="34" width="346" height="1"/>
                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="2Vy-7G-Jb8"/>
@@ -104,58 +104,34 @@
                         <constraint firstItem="fNo-ve-spg" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="top" constant="1" id="1DR-eW-TXG"/>
                         <constraint firstItem="clU-rU-kWc" firstAttribute="top" secondItem="fNo-ve-spg" secondAttribute="bottom" constant="9" id="2gG-5E-Amo"/>
                         <constraint firstItem="fNo-ve-spg" firstAttribute="leading" secondItem="aZ4-Ki-qfF" secondAttribute="leading" constant="1" id="7rt-Nh-1BB"/>
-                        <constraint firstAttribute="trailing" secondItem="clU-rU-kWc" secondAttribute="trailing" constant="-4" id="D7c-XP-KJY"/>
+                        <constraint firstAttribute="trailing" secondItem="clU-rU-kWc" secondAttribute="trailing" id="D7c-XP-KJY"/>
                         <constraint firstAttribute="height" constant="37" id="E63-QD-anD"/>
                         <constraint firstItem="7Tn-GS-e9n" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="top" constant="3" id="ImT-If-dSf"/>
                         <constraint firstItem="7Tn-GS-e9n" firstAttribute="leading" secondItem="fNo-ve-spg" secondAttribute="trailing" constant="3" id="M7M-BC-Toe"/>
                         <constraint firstItem="clU-rU-kWc" firstAttribute="leading" secondItem="aZ4-Ki-qfF" secondAttribute="leading" id="Um8-59-q1z"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
-                    <rect key="frame" x="107" y="140" width="174" height="24"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <state key="normal" title="오늘온 조용히 가고 싶어요">
-                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusd">
-                            <real key="value" value="15"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                            <color key="value" red="1" green="0.79074197887771547" blue="0.13024529204343549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </button>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFl-Fj-v17">
-                    <rect key="frame" x="18" y="84" width="162" height="48"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFl-Fj-v17">
+                    <rect key="frame" x="18" y="84" width="140" height="48"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gailadaychudau" translatesAutoresizingMaskIntoConstraints="NO" id="5Te-1J-Wyl">
-                            <rect key="frame" x="1" y="0.0" width="46" height="46"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gailadaychudau" translatesAutoresizingMaskIntoConstraints="NO" id="5Te-1J-Wyl">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="4Tf-bg-wfK"/>
+                                <constraint firstAttribute="height" constant="46" id="LPH-BX-dGp"/>
+                            </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                     <real key="value" value="23"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="코쿠다스 ,코쿠다스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHB-zY-B2h">
-                            <rect key="frame" x="53" y="25" width="75" height="17"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="numberOfLine">
-                                    <integer key="value" value="2"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
-                        </label>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PsE-5h-xPm" customClass="CosmosView" customModule="Cosmos">
-                            <rect key="frame" x="53" y="10" width="70" height="12"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PsE-5h-xPm" customClass="CosmosView" customModule="Cosmos">
+                            <rect key="frame" x="53" y="7" width="70" height="9"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="RSF-bc-723"/>
+                            </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="rating">
                                     <real key="value" value="2"/>
@@ -176,9 +152,49 @@
                                 <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="estrellaempty"/>
                             </userDefinedRuntimeAttributes>
                         </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="코쿠다스 ,코쿠다스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHB-zY-B2h">
+                            <rect key="frame" x="53" y="22" width="75" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="xw4-Fi-t76"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="numberOfLine">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5Te-1J-Wyl" firstAttribute="leading" secondItem="xFl-Fj-v17" secondAttribute="leading" id="094-gz-LOe"/>
+                        <constraint firstItem="5Te-1J-Wyl" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="top" id="9la-Ae-ed3"/>
+                        <constraint firstItem="PsE-5h-xPm" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="7" id="C1b-X7-4BN"/>
+                        <constraint firstAttribute="height" constant="48" id="PF2-4t-IKA"/>
+                        <constraint firstAttribute="width" constant="140" id="Ycf-Hi-TbX"/>
+                        <constraint firstItem="mHB-zY-B2h" firstAttribute="top" secondItem="PsE-5h-xPm" secondAttribute="bottom" constant="6" id="gvg-9F-3Rw"/>
+                        <constraint firstItem="PsE-5h-xPm" firstAttribute="top" secondItem="xFl-Fj-v17" secondAttribute="top" constant="7" id="miG-op-4Xs"/>
+                        <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="7" id="yp0-1n-E30"/>
+                    </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-AH-Wxb">
+                    <rect key="frame" x="107" y="140" width="174" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="오늘온 조용히 가고 싶어요">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusd">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="0.79074197887771547" blue="0.13024529204343549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
                 <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-MP-NrZ">
                     <rect key="frame" x="252" y="98" width="120" height="20"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -224,6 +240,8 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aZ4-Ki-qfF" secondAttribute="trailing" constant="24" id="1yg-fe-6Dx"/>
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="Du1-rd-4BS"/>
                 <constraint firstItem="aZ4-Ki-qfF" firstAttribute="top" secondItem="gKW-OK-h8p" secondAttribute="bottom" constant="8" id="Jlg-XT-7ol"/>
+                <constraint firstItem="xFl-Fj-v17" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="deR-Es-QCo"/>
+                <constraint firstItem="xFl-Fj-v17" firstAttribute="top" secondItem="aZ4-Ki-qfF" secondAttribute="bottom" constant="4" id="eJy-T9-Dnk"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="foM-HK-vOC"/>
                 <constraint firstItem="gKW-OK-h8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gsX-gn-Rw5"/>
                 <constraint firstAttribute="trailing" secondItem="gKW-OK-h8p" secondAttribute="trailing" id="hqG-pJ-55I"/>
