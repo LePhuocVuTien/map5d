@@ -141,7 +141,7 @@
                         <constraint firstItem="mHB-zY-B2h" firstAttribute="leading" secondItem="5Te-1J-Wyl" secondAttribute="trailing" constant="5" id="pKM-0I-ec7"/>
                     </constraints>
                 </view>
-                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eYU-ln-cQX">
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="eYU-ln-cQX" customClass="RatingController" customModule="map5d" customModuleProvider="target">
                     <rect key="frame" x="71" y="90" width="70" height="14"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKu-1A-o3G">

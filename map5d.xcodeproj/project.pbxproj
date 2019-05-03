@@ -88,7 +88,6 @@
 				04B2626322714EE5005FAD76 /* LaunchScreen.storyboard */,
 				04B2626622714EE5005FAD76 /* Info.plist */,
 				0426E38C227AE90F00343A8B /* ButtonViewController.swift */,
-				0426E38E227AFB9500343A8B /* RatingController.swift */,
 			);
 			path = map5d;
 			sourceTree = "<group>";
@@ -107,6 +106,7 @@
 		04B2626F227157BF005FAD76 /* InfomationView */ = {
 			isa = PBXGroup;
 			children = (
+				0426E38E227AFB9500343A8B /* RatingController.swift */,
 				04B262722271580A005FAD76 /* InformationView.xib */,
 				04B2627422715836005FAD76 /* InformationDelegate.swift */,
 				04B26276227168F8005FAD76 /* InformationView.swift */,

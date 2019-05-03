@@ -24,13 +24,12 @@ class ButtonViewController: UIView {
     
     
     override func draw(_ rect: CGRect) {
-        
-        print ("draw")
+    
         // Initialize the path.
         let path = UIBezierPath()
         
-        path.move(to: CGPoint(x: self.frame.size.width/2 + 40, y: 0.0))
-        path.addLine(to: CGPoint(x: self.frame.size.width/2 - 40, y: self.frame.size.height))
+        path.move(to: CGPoint(x: self.frame.size.width/2 + 30, y: 0.0))
+        path.addLine(to: CGPoint(x: self.frame.size.width/2 - 30, y: self.frame.size.height))
         path.addLine(to: CGPoint(x: self.frame.size.width, y: self.frame.size.height))
         path.addLine(to: CGPoint(x: self.frame.size.width, y: 0.0))
         path.close()
