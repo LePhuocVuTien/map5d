@@ -29,6 +29,7 @@ class InformationView: UIView {
         Bundle.main.loadNibNamed("InformationView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
+
     }
     
     @IBAction func onTapMessage(_ sender: Any) {

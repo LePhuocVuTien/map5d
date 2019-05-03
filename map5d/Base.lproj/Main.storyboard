@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="map5d" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="brl-Ty-TlH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="30"/>
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="리이더 탑승왕료" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYC-pj-Ud4">
-                                        <rect key="frame" x="8" y="0.0" width="398" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="리이더 탑승왕료" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYC-pj-Ud4">
+                                        <rect key="frame" x="8" y="0.0" width="648" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -31,7 +30,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="DYC-pj-Ud4" firstAttribute="leading" secondItem="brl-Ty-TlH" secondAttribute="leadingMargin" id="BLB-lv-we7"/>
                                     <constraint firstAttribute="height" constant="30" id="Qqu-zq-Par"/>
+                                    <constraint firstItem="DYC-pj-Ud4" firstAttribute="trailing" secondItem="brl-Ty-TlH" secondAttribute="trailingMargin" id="cnf-hI-xe4"/>
+                                    <constraint firstItem="DYC-pj-Ud4" firstAttribute="top" secondItem="brl-Ty-TlH" secondAttribute="top" id="tel-8C-TDm"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadow">
@@ -40,25 +42,35 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-KG-s7H" customClass="MFMapView">
-                                <rect key="frame" x="0.0" y="74" width="414" height="822"/>
+                                <rect key="frame" x="0.0" y="30" width="736" height="384"/>
                                 <color key="backgroundColor" red="1" green="0.79074197889999998" blue="0.13024529200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M8K-2Y-HdY" customClass="InformationView" customModule="map5d" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="666" width="414" height="230"/>
+                                <rect key="frame" x="0.0" y="184" width="736" height="230"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="230" id="BAN-2a-jpp"/>
                                     <constraint firstAttribute="height" constant="230" id="mhw-gd-sHT"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ueO-nQ-sf3">
+                                <rect key="frame" x="0.0" y="414" width="736" height="0.0"/>
+                                <color key="backgroundColor" red="0.15445029735565186" green="0.47374409437179565" blue="0.99667185544967651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ueO-nQ-sf3" secondAttribute="bottom" id="2No-EZ-Q1O"/>
                             <constraint firstItem="FxL-KG-s7H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="6DG-Xu-Xzr"/>
                             <constraint firstItem="FxL-KG-s7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I9G-tY-AkB"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="bottom" secondItem="FxL-KG-s7H" secondAttribute="bottom" id="LOm-c6-wqC"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LqH-OC-e3b"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wbw-dh-8E5"/>
-                            <constraint firstAttribute="bottom" secondItem="M8K-2Y-HdY" secondAttribute="bottom" id="d1F-Kt-QKZ"/>
+                            <constraint firstItem="ueO-nQ-sf3" firstAttribute="top" secondItem="FxL-KG-s7H" secondAttribute="bottom" id="XM1-kr-WaX"/>
+                            <constraint firstItem="M8K-2Y-HdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fpM-YU-V4E"/>
+                            <constraint firstItem="FxL-KG-s7H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lwu-Fm-aKw"/>
+                            <constraint firstItem="ueO-nQ-sf3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mN4-s8-bVy"/>
+                            <constraint firstAttribute="trailing" secondItem="ueO-nQ-sf3" secondAttribute="trailing" id="o31-5f-lSK"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vAd-pf-eZS"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xO7-Yl-LD2"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yHN-XF-Ztp"/>
@@ -72,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
+            <point key="canvasLocation" x="136.23188405797103" y="135.9375"/>
         </scene>
     </scenes>
 </document>

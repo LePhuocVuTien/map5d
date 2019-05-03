@@ -16,6 +16,5 @@ class ViewController: UIViewController {
     var line = UIBezierPath()
     override func viewDidLoad() {
         super.viewDidLoad()
-    
     }
 }
