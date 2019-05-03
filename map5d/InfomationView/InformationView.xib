@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationView" customModule="map5d" customModuleProvider="target">
             <connections>
+                <outlet property="address" destination="7Tn-GS-e9n" id="tbq-dy-SjE"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="os3-cz-qkL"/>
                 <outlet property="runTimeView" destination="MLT-f9-v06" id="ndz-xD-arL"/>
             </connections>
@@ -61,11 +62,11 @@
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3km, 강남구신시555-111" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-GS-e9n">
-                            <rect key="frame" x="28" y="3" width="200" height="18"/>
+                            <rect key="frame" x="28" y="2.9999999999999991" width="200" height="15.666666666666664"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="jIr-gg-wTR"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                             <userDefinedRuntimeAttributes>

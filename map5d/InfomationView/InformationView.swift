@@ -12,7 +12,7 @@ import Cosmos
 class InformationView: UIView {
 
     @IBOutlet var contentView: UIView!
-    
+    @IBOutlet weak var address: UILabel!
     @IBOutlet weak var runTimeView: UIView!
     
     override init(frame: CGRect) {
@@ -29,6 +29,7 @@ class InformationView: UIView {
         Bundle.main.loadNibNamed("InformationView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
+        address.text = "3km, 강남구신시555-111 3km, 강남구신시555-111"
 
     }
     
@@ -39,6 +40,6 @@ class InformationView: UIView {
         print("SR BREAK PHONE")
     }
     @IBAction func onTapCancel(_ sender: Any) {
-        print("CANCEL")
+        contentView.isHidden = true
     }
 }
