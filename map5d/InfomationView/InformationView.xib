@@ -12,10 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationView" customModule="map5d" customModuleProvider="target">
             <connections>
-                <outlet property="arriveLabel" destination="7Tn-GS-e9n" id="Wb3-Bk-t2F"/>
-                <outlet property="avataImageView" destination="5Te-1J-Wyl" id="l76-vy-1oh"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="os3-cz-qkL"/>
-                <outlet property="fullName" destination="mHB-zY-B2h" id="Cmi-Pi-6on"/>
                 <outlet property="runTimeView" destination="MLT-f9-v06" id="ndz-xD-arL"/>
             </connections>
         </placeholder>

@@ -11,13 +11,7 @@ import Cosmos
 
 class InformationView: UIView {
 
-    @IBOutlet weak var avataImageView: UIImageView!
     @IBOutlet var contentView: UIView!
-    @IBOutlet weak var runTimeButton: UIButton!
-    @IBOutlet weak var addressButton: UIButton!
-    @IBOutlet weak var fullName: UILabel!
-    @IBOutlet weak var cosmosView: CosmosView!
-    @IBOutlet weak var arriveLabel: UILabel!
     
     @IBOutlet weak var runTimeView: UIView!
     
