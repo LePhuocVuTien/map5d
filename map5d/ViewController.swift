@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelVisible: UILabel!
     @IBOutlet weak var safeArea: UIView!
     @IBOutlet weak var systemView: UIView!
+    @IBOutlet weak var height: NSLayoutConstraint!
     
     var line = UIBezierPath()
     override func viewDidLoad() {
@@ -26,13 +27,19 @@ class ViewController: UIViewController {
     
     @objc func visibelInfo(_ gesture: UITapGestureRecognizer){
 
-        if informationView.isHidden {
-            informationView.isHidden = false
-            systemView.isHidden = false
-        }
-        else {
-            informationView.isHidden = true
-            systemView.isHidden = true
-        }
+        UIView.animate(withDuration: 0.5,
+                       animations: {
+                        if self.height.constant == 0 {
+                            self.height.constant = 230
+                            self.safeArea.backgroundColor = UIColor(displayP3Red: 0.245141, green: 0.528709, blue: 0.996657, alpha: 1.0)
+                        }
+                        else {
+                            self.height.constant = 0
+                            self.safeArea.backgroundColor = .white
+                        }
+                        self.view.layoutIfNeeded()
+        },
+                       completion: nil)
+
     }
 }

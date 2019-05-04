@@ -42,15 +42,14 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-KG-s7H" customClass="MFMapView">
-                                <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                                <rect key="frame" x="0.0" y="74" width="414" height="558"/>
                                 <color key="backgroundColor" red="1" green="0.79074197889999998" blue="0.13024529200000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M8K-2Y-HdY" customClass="InformationView" customModule="map5d" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="632" width="414" height="230"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="230" id="BAN-2a-jpp"/>
-                                    <constraint firstAttribute="height" constant="230" id="mhw-gd-sHT"/>
+                                    <constraint firstAttribute="height" constant="230" id="BAN-2a-jpp"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ueO-nQ-sf3">
@@ -62,16 +61,15 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ueO-nQ-sf3" secondAttribute="bottom" id="2No-EZ-Q1O"/>
                             <constraint firstItem="FxL-KG-s7H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="6DG-Xu-Xzr"/>
+                            <constraint firstItem="M8K-2Y-HdY" firstAttribute="top" secondItem="FxL-KG-s7H" secondAttribute="bottom" id="Exl-lo-B8m"/>
                             <constraint firstItem="FxL-KG-s7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I9G-tY-AkB"/>
-                            <constraint firstItem="M8K-2Y-HdY" firstAttribute="bottom" secondItem="FxL-KG-s7H" secondAttribute="bottom" id="LOm-c6-wqC"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LqH-OC-e3b"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Onp-Pg-ucG"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wbw-dh-8E5"/>
-                            <constraint firstItem="ueO-nQ-sf3" firstAttribute="top" secondItem="FxL-KG-s7H" secondAttribute="bottom" id="XM1-kr-WaX"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fpM-YU-V4E"/>
-                            <constraint firstItem="FxL-KG-s7H" firstAttribute="bottom" secondItem="M8K-2Y-HdY" secondAttribute="bottom" id="lwu-Fm-aKw"/>
                             <constraint firstItem="ueO-nQ-sf3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mN4-s8-bVy"/>
                             <constraint firstAttribute="trailing" secondItem="ueO-nQ-sf3" secondAttribute="trailing" id="o31-5f-lSK"/>
+                            <constraint firstItem="ueO-nQ-sf3" firstAttribute="top" secondItem="M8K-2Y-HdY" secondAttribute="bottom" id="owK-s0-kxg"/>
                             <constraint firstItem="brl-Ty-TlH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vAd-pf-eZS"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xO7-Yl-LD2"/>
                             <constraint firstItem="M8K-2Y-HdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yHN-XF-Ztp"/>
@@ -80,6 +78,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="height" destination="BAN-2a-jpp" id="VZL-y5-uIs"/>
                         <outlet property="informationView" destination="M8K-2Y-HdY" id="6Vg-f9-nvs"/>
                         <outlet property="labelVisible" destination="DYC-pj-Ud4" id="YX9-4J-3B7"/>
                         <outlet property="safeArea" destination="ueO-nQ-sf3" id="LFU-Hy-Odb"/>
