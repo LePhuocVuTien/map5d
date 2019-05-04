@@ -15,14 +15,13 @@ extension UILabel {
             return Int(self.numberOfLines)
         }
         set {
-            var posY = self.frame.origin.y
             self.numberOfLines = newValue
             if self.intrinsicContentSize.width > self.frame.width && newValue >= 2{
-                posY = posY - 4
-                let size = self.sizeThatFits(CGSize(width: self.frame.width, height: self.frame.height))
-                self.frame = CGRect(origin: CGPoint(x: self.frame.origin.x, y: posY), size: size)
+                self.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+                print("------ \(self.topAnchor)")
+                
+                self.setNeedsUpdateConstraints()
             }
-          
         }
     }
 }

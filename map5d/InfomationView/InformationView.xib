@@ -61,7 +61,7 @@
                                 <constraint firstAttribute="width" constant="24" id="pCL-F8-CTf"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3km, 강남구신시555-111" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-GS-e9n">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3km, 강남구신시555-111" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-GS-e9n">
                             <rect key="frame" x="28" y="2.9999999999999991" width="200" height="15.666666666666664"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="200" id="jIr-gg-wTR"/>
